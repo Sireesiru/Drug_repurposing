@@ -11,6 +11,6 @@ The xml files of the two excel VB macro scripts(Annexure-A and Annexure-B)
 PASS results xls file which contains the final repurposable indications identified in the study and the graphs.
 The drugs in each of the nine cluster are given in the C1-C9 cluster.xls file.
 
-# Requrements
+# Requirements
 R-version 3.6.2
 PASS 2017 software
