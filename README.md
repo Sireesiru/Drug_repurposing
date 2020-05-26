@@ -12,5 +12,5 @@ PASS results xls file which contains the final repurposable indications identifi
 The drugs in each of the nine cluster are given in the C1-C9 cluster.xls file.
 
 # Requirements
-R-version 3.6.2
-PASS 2017 software.
+1. R-version 3.6.2
+2. PASS 2017 software
