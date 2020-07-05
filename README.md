@@ -1,6 +1,6 @@
 # Drug_repurposing  
 # Introduction
-The current work is about unsupervised machine learning studies of approved drugs to identify repurposable drugs for new indications. This work is carried out using two tools namely Unsupervised ML tools which generated drug clusters and PASS 2017 which gave all the predicted biological activities of the drugs.The unsupervised ML work involved PCA and k-means clustering which are carried out in R 3.6.2 environment and R-studio while the PASS analysis is done only in excel. The scripts for analysing PASS results are excel VB macro scripts.
+The current work is about unsupervised machine learning studies of approved drugs to identify drugs which can be repurposed for new indications. This work is carried out using two tools namely Unsupervised ML tools which generated drug clusters and PASS 2017 which gave all the predicted biological activities of the drugs.The unsupervised ML work involved PCA and k-means clustering carried out in R 3.6.2 environment while the PASS analysis is done only in excel. Excel VB macro scripts are used for analysing PASS results.
 
 # Contents of the folder
 The folder contains all the results obtained in the study. 
