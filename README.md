@@ -10,7 +10,7 @@ It contains
 3. The loadings and percentage contribution files of the 1079 variables on the first five principal components in the form of xls files.
 4. The VB macro scripts (Annexure-A and Annexure-B).
 5. PASS results xls file which contains the final repurposable indications identified in the study and the graphs.
-6. The drugs in each of the nine cluster are given in the C1-C9 cluster.xls file.
+6. The drugs in each of the nine cluster are given in the c1-c9_cluster_names.xls file.
 
 # Requirements
 1. R-version 3.6.2
