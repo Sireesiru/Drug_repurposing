@@ -36,11 +36,12 @@
   k 
   
 # View 2d plot of the obtained clusters:
-  fviz_cluster(k, dat7a, ellipse.type = "norm", geom ="point")
+  fviz_cluster(k, dat7a, ellipse.type = "norm", geom ="point", xlab="PC1",ylab="PC2", title =" ")
   
 # View Multi 3D plot of the obtained clusters:
-  > library(rgl)
-  > plot3d(comp$PC1, comp$PC2, comp$PC3, col=k$clust, xlab = "PC1", ylab = "PC2", zlab = "PC3", cex=0.5, box = TRUE,type ="s", radius = 1.5, axes3d(edges = c("x--", "y--", "z-+")))  
+  install.packages("rgl")
+  library(rgl)
+  plot3d(comp$PC1, comp$PC2, comp$PC3, col=k$clust, xlab = "PC1", ylab = "PC2", zlab = "PC3", cex=0.5, box = TRUE,type ="s", radius = 1.5, axes3d(edges = c("x--", "y--", "z-+")))  
 
 # Sort the clusters based on their increasing size
   sort(table(k$clust))
