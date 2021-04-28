@@ -12,9 +12,8 @@
   fviz_eig(pc, ylim = c(0, 35), geom ="line")
      
 # Plot PC1 vs. PC2(needs ggfortify package)
-  library(ggfortify)
-  autoplot(pc, label = TRUE, label.size = 3)
-  
+  fviz_pca_ind(pc,cex=0.5, pch=10, title =" ",labelsize=4, xlab="PC1",ylab="PC2")+theme(panel.border = element_rect(linetype = "solid", fill = NA),panel.grid.major=element_blank(),panel.grid.minor=element_blank())
+ 
 # Save the 5 PCs separately which can be used for k-means
   comp <- data.frame(pc$x[,1:5])
 
