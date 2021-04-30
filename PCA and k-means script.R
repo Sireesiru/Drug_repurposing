@@ -50,21 +50,21 @@
   clust <- names(sort(table(k$clust)))
 
 # Save every cluster separately 
-# Seventh Cluster  
-  c7 <- row.names(dat7a[k$clust==clust[1],])
-# Ninth Cluster
-  c9 <- row.names(dat7a[k$clust==clust[2],])
-# Sixth Cluster
-  c6 <- row.names(dat7a[k$clust==clust[3],])
-# First Cluster
-  c1 <- row.names(dat7a[k$clust==clust[4],])
-# Third Cluster
-  c3 <- row.names(dat7a[k$clust==clust[5],])
-# Second Cluster
-  c2 <- row.names(dat7a[k$clust==clust[6],])
+# Third Cluster  
+  c3 <- row.names(dat7a[k$clust==clust[1],])
+# Seventh Cluster
+  c7 <- row.names(dat7a[k$clust==clust[2],])
 # Fourth Cluster
-  c4 <- row.names(dat7a[k$clust==clust[7],])
+  c4 <- row.names(dat7a[k$clust==clust[3],])
+# Eighth Cluster
+  c8 <- row.names(dat7a[k$clust==clust[4],])
 # Fifth Cluster
-  c5 <- row.names(dat7a[k$clust==clust[8],])
-# Eighth cluster
-  c8 <- row.names(dat7a[k$clust==clust[9],])
+  c5 <- row.names(dat7a[k$clust==clust[5],])
+# Nineth Cluster
+  c9 <- row.names(dat7a[k$clust==clust[6],])
+# Sixth Cluster
+  c6 <- row.names(dat7a[k$clust==clust[7],])
+# Second Cluster
+  c2 <- row.names(dat7a[k$clust==clust[8],])
+# First cluster
+  c1 <- row.names(dat7a[k$clust==clust[9],])
